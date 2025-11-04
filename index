@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Zoom Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a1a3c;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #0d2560;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .player {
+            margin-top: 20px;
+            background: #102b70;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255,255,255,0.2);
+        }
+
+        audio {
+            width: 280px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #007bff;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .socials {
+            margin-top: 30px;
+        }
+
+        .socials a {
+            color: #4db2ff;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 12px;
+            font-size: 14px;
+            background: #06132b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>📻 Radio Zoom Online</header>
+
+    <div class="container">
+        <h2>¡Bienvenido a la transmisión en vivo!</h2>
+        <p>Disfruta de la mejor música y programación online.</p>
+
+        <div class="player">
+            <h3>🔊 Escuchar en vivo</h3>
+            <audio controls autoplay>
+                <source src="https://stream.zeno.fm/dagq48scgv8uv" type="audio/mpeg">
+                Tu navegador no soporta el reproductor de audio.
+            </audio>
+
+            <br>
+            <a class="btn" href="https://stream.zeno.fm/dagq48scgv8uv" target="_blank">▶ Escuchar en el móvil</a>
+        </div>
+
+        <div class="socials">
+            <h3>Síguenos en redes</h3>
+            <a href="https://www.instagram.com/radiozoom_online" target="_blank">📸 Instagram</a>
+        </div>
+
+        <div class="socials">
+            <h3>Contacto</h3>
+            <!-- Agrega tu número al enlace de WhatsApp -->
+            <a href="https://wa.me/XXXXXXXXXXX" target="_blank">📩 WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>© 2025 Radio Zoom Online - Todos los derechos reservados</footer>
+
+</body>
+</html>
